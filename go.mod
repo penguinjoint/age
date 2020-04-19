@@ -2,6 +2,7 @@ module filippo.io/age
 
 go 1.13
 
-require golang.org/x/crypto v0.0.0-20191002192127-34f69633bfdc
-
-replace golang.org/x/crypto => github.com/Filosottile/go v0.0.0-20191122011136-9090b284250b
+require (
+	github.com/sergi/go-diff v1.1.0
+	golang.org/x/crypto v0.0.0-20200323165209-0ec3e9974c59
+)
